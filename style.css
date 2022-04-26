@@ -1,0 +1,490 @@
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: #fff;    
+
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+	}
+
+
+ ol, ul, a {
+     padding: 0;
+     margin: 0;
+     font-style: none;
+        list-style: none;
+    }
+    
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}    
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Head */
+
+#head{
+    background: #1c1d26;
+
+    /* border: red solid 2px; */
+    padding: 0%;
+    margin: 0 0 20% 0;
+    height: 100vh;
+    width: 99vw;
+    display: inline-block;
+}
+.main-page{
+    margin-top: 15%;
+    display: inline-block;
+}
+
+
+.h2p{
+    padding-top: 20%;
+    margin: 0%;
+}
+
+.col-sm-12{
+    padding: auto;
+    margin: 0%;
+}
+/* 
+img{
+    border-radius: 100px;
+} */
+
+img{
+
+    display: inline;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    float: right;
+}
+header{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    display: block;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* About */
+
+#about{
+    background: #1c1d26;
+
+    padding: 7% 0 13% 0;
+    margin: 0;
+    /* border: red solid 2px; */
+    height: 15vh;
+    width: 99vw;
+
+    margin: 0 0 20% 0;
+
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Skill */
+
+#skill{
+    background: #1c1d26;
+    
+
+    padding: 7% 0 13% 0;
+    /* border: red solid 2px; */
+    height: 15vh;
+    width: 99vw;
+}
+
+.col-lg-8,.col-lg-4{
+    
+    /* border: red solid 2px; */
+    height: 80vh;
+    width: 40vw;
+    padding: 10%;
+
+}
+
+.container-right{
+    margin-right: 0%;
+}
+
+.container-left{
+margin-left: 0;
+}
+
+.details{
+
+    padding: 10%;
+    background: #1c1d26;
+    border-radius: 3%; 
+    box-shadow: 5px 10px 18px 5px #888888;
+
+
+}
+
+.bar{
+    width: 550px;
+    /* background: #353b48; */
+    display: block;
+    height: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow:  0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 5px;
+    float: left;
+    background: #2187e7b3;
+}
+/* Web-Dev */
+
+
+.html{
+    width: 85%;
+    animation: html 2s;
+}
+.css{
+    width: 80%;
+    animation: css 2s;
+
+}
+.node{
+    width:75%;
+    animation: node 2s;
+
+}
+.react{
+    width: 65%;
+    animation: react 2s;
+
+}
+.flask{
+    width: 70%;
+    animation: flask 2s
+
+}
+
+@keyframes html{
+    0%{ width: 0%; }
+    100%{width: 85%;    }
+}
+
+@keyframes css{
+    0%{ width: 0%; }
+    100%{width: 80%;    }
+}
+
+@keyframes node{
+    0%{ width: 0%; }
+    100%{width: 75%;    }
+}
+
+@keyframes react{
+    0%{ width: 0%; }
+    100%{width: 65%;    }
+}
+
+@keyframes flask{
+    0%{ width: 0%; }
+    100%{width: 70%;    }
+}
+
+
+
+/* Programming */
+
+.c{
+    width: 75%;
+    animation: c 2s;
+}
+.cpp{
+    width: 80%;
+    animation: cpp 2s;
+
+}
+.python{
+    width:70%;
+    animation: python 2s;
+
+}
+.javascrypt{
+    width: 60%;
+    animation: js 2s;
+
+}
+.dsa{
+    width: 65%;
+    animation: dsa 2s
+
+}
+
+@keyframes c{
+    0%{ width: 0%; }
+    100%{width: 75%;    }
+}
+
+@keyframes cpp{
+    0%{ width: 0%; }
+    100%{width: 80%;    }
+}
+
+@keyframes python{
+    0%{ width: 0%; }
+    100%{width: 70%;    }
+}
+
+@keyframes js{
+    0%{ width: 0%; }
+    100%{width: 60%;    }
+}
+
+@keyframes dsa{
+    0%{ width: 0%; }
+    100%{width: 65%;    }
+}
+
+
+
+/* Editing */
+
+
+.p{
+    width: 70%;
+    animation: html 2s;
+}
+.lr{
+    width: 80%;
+    animation: css 2s;
+
+}
+.pp{
+    width:85%;
+    animation: node 2s;
+
+}
+.ae{
+    width: 75%;
+    animation: react 2s;
+
+}
+
+
+@keyframes p{
+    0%{ width: 0%; }
+    100%{width: 70%;    }
+}
+
+@keyframes lr{
+    0%{ width: 0%; }
+    100%{width: 80%;    }
+}
+
+@keyframes pp{
+    0%{ width: 0%; }
+    100%{width: 85%;    }
+}
+
+@keyframes ae{
+    0%{ width: 0%; }
+    100%{width: 75%;    }
+}
+
+
+
+/* .......... */
+.bar-box-align-right{
+    padding-left: 40%;
+    /* border: 2px solid red; */
+    text-align: right;
+}
+
+.bar-box-align-left{
+    /* border: 2px solid red; */
+    text-align: left;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Footer */
+#footer{
+    margin-top: 20%;
+    background: #1c1d26;
+    height: 25vh;
+}
+.icons{
+    padding-top: 5%;
+    text-align: center;
+    display: inline-flex;
+    color: #fff;
+    font-size: 20%;
+}
+.fab{
+    margin: 10px;
+    color: #fff;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media(max-width: 500px)
+{body{
+   
+	font-size: 80%;
+	font: inherit;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+    align-items: center;
+	}
+
+    /* ///////////////// HEAD/////////////////////// */
+
+    #head{
+        height: 100vh;
+        display: block;
+    }
+
+    .main-page{
+        margin-top: 15%;
+        display: block;
+    }    
+
+
+
+
+    .row{
+        padding: 0%;
+        margin: 0%;
+    }
+    .h2p{
+        padding: 20% 0;
+    }
+
+
+    /* //////////////////// IMG ///////////////////// */
+
+    img{
+        
+        width: 200px;
+        height: 200px;
+        padding: auto;
+        margin: auto;
+        float: none;
+
+    }
+ 
+
+
+
+
+    /* /////////////////////////FIXING//////////////// */
+    #about,#skill{
+        height: 40vh;
+        margin-bottom: 40vh;
+
+    }
+
+
+    /* /////////////// SKILLS /////////////////////// */
+
+
+    .col-sm-12{
+        width: 99vw;
+    }
+
+    .bar{
+        width: 70%;
+    }
+
+
+
+
+    .details{
+
+        padding: 10%;
+        background: #1c1d26;
+        border-radius: 0%; 
+        box-shadow: none;
+
+
+}
+
+
+.bar span{
+    height: 5px;
+    float: left;
+    background: #2187e7b3;
+}
+
+.bar-box-align-right{
+    padding: 0%;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.bar-box-align-left{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+    .bar-view-mobile{
+        align-items: center;
+        text-align: center;
+    }
+
+    .col-lg-8,.col-lg-4{
+        text-align: center;
+        align-items: center;
+    
+        /* border: red solid 2px; */
+        
+    
+    }    
+
+
+
+
+
+    /* ////////////////// FOOTER ///////////////////// */
+    
+#footer{
+    margin-top: 20%;
+    background: #1c1d26;
+    height: 20vh;
+}
+.fab{
+    margin: 10px;
+    color: #fff;
+}
+
+
+
+}
+    

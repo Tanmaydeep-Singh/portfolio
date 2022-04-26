@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Head */
 
-#head{
+#head,#head-about{
     background: #1c1d26;
 
     /* border: red solid 2px; */
@@ -42,6 +42,15 @@ h1,h2,h3,h4,h5,h6,p{
     width: 99vw;
     display: inline-block;
 }
+
+/* about-page */ #head-about{ margin: 0;}
+
+/* Home page link */ 
+.home-page-link{
+    
+}
+
+
 .main-page{
     margin-top: 15%;
     display: inline-block;
@@ -95,6 +104,20 @@ header{
 
     margin: 0 0 20% 0;
 
+}
+
+/* Button */
+.button{
+    padding: 3%;
+}
+.btn{
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    color: #3498db;
+    font-size: 1.5em;
 }
 
 
@@ -330,11 +353,13 @@ margin-left: 0;
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* Footer */
-#footer{
+#footer,#footer-about{
     margin-top: 20%;
     background: #1c1d26;
     height: 25vh;
 }
+
+/* about-page-footer */#footer-about{margin: 0%;}
 .icons{
     padding-top: 5%;
     text-align: center;
